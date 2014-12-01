@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{e1e1b4f3-d7b7-4f37-bd0c-200b231fb262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TODO">
+      <UniqueIdentifier>{ad5f920f-d816-4ae7-b0f3-321825fdfa34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DEPENDENCY">
+      <UniqueIdentifier>{e4d37f70-82c3-4f9e-afe4-c8d35f0d387c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VesaMoottori\ResourceManager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VesaMoottori\Window.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VesaMoottori\GraphicsDevice.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VesaMoottori\Buffers.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VesaMoottori\Assert.h">
+      <Filter>Source Files\TODO</Filter>
+    </ClInclude>
+    <ClInclude Include="VesaMoottori\Debugger.h">
+      <Filter>Source Files\TODO</Filter>
+    </ClInclude>
+    <ClInclude Include="VesaMoottori\ImageInfo.h">
+      <Filter>Source Files\TODO</Filter>
+    </ClInclude>
+    <ClInclude Include="VesaMoottori\lodepng.h">
+      <Filter>Source Files\DEPENDENCY</Filter>
+    </ClInclude>
+    <ClInclude Include="VesaMoottori\Texture.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VesaMoottori\Sprite.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VesaMoottori\vector2i.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VesaMoottori\ShaderProgram.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="VesaMoottori\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VesaMoottori\ResourceManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VesaMoottori\Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VesaMoottori\GraphicsDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VesaMoottori\Buffers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VesaMoottori\lodepng.cpp">
+      <Filter>Source Files\DEPENDENCY</Filter>
+    </ClCompile>
+    <ClCompile Include="VesaMoottori\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VesaMoottori\ShaderProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VesaMoottori\Sprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="tex.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="goofy.png">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

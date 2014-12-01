@@ -1,0 +1,47 @@
+﻿Build started 28.11.2014 15:27:11.
+     1>Project "C:\Users\tti13svesak\Desktop\fakemoottori\3d-grafiikkaa\VesaMoottori\VesaMoottori\VesaMoottori.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\tti13svesak\Desktop\fakemoottori\3d-grafiikkaa\VesaMoottori\VesaMoottori\\VesaMoottori\Glew\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt VesaMoottori\Buffers.cpp VesaMoottori\Main.cpp
+         Main.cpp
+     1>c:\users\tti13svesak\desktop\fakemoottori\3d-grafiikkaa\vesamoottori\vesamoottori\vesamoottori\main.cpp(145): warning C4930: 'Sprite sprite(void)': prototyped function not called (was a variable definition intended?)
+     1>c:\users\tti13svesak\desktop\fakemoottori\3d-grafiikkaa\vesamoottori\vesamoottori\vesamoottori\main.cpp(314): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\tti13svesak\desktop\fakemoottori\3d-grafiikkaa\vesamoottori\vesamoottori\vesamoottori\main.cpp(326): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\tti13svesak\desktop\fakemoottori\3d-grafiikkaa\vesamoottori\vesamoottori\vesamoottori\main.cpp(336): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\tti13svesak\desktop\fakemoottori\3d-grafiikkaa\vesamoottori\vesamoottori\vesamoottori\main.cpp(337): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\tti13svesak\desktop\fakemoottori\3d-grafiikkaa\vesamoottori\vesamoottori\vesamoottori\main.cpp(338): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\tti13svesak\desktop\fakemoottori\3d-grafiikkaa\vesamoottori\vesamoottori\vesamoottori\main.cpp(345): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\tti13svesak\desktop\fakemoottori\3d-grafiikkaa\vesamoottori\vesamoottori\vesamoottori\main.cpp(346): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\tti13svesak\desktop\fakemoottori\3d-grafiikkaa\vesamoottori\vesamoottori\vesamoottori\main.cpp(354): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\tti13svesak\desktop\fakemoottori\3d-grafiikkaa\vesamoottori\vesamoottori\vesamoottori\main.cpp(355): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\tti13svesak\desktop\fakemoottori\3d-grafiikkaa\vesamoottori\vesamoottori\vesamoottori\main.cpp(356): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\tti13svesak\desktop\fakemoottori\3d-grafiikkaa\vesamoottori\vesamoottori\vesamoottori\main.cpp(384): warning C4018: '<' : signed/unsigned mismatch
+         GLM: perspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+         GLM: rotate function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+         Buffers.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\tti13svesak\Desktop\fakemoottori\3d-grafiikkaa\VesaMoottori\Debug\VesaMoottori.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\tti13svesak\Desktop\fakemoottori\3d-grafiikkaa\VesaMoottori\VesaMoottori\\VesaMoottori\Glew\lib\Release\Win32" glew32.lib glew32s.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\tti13svesak\Desktop\fakemoottori\3d-grafiikkaa\VesaMoottori\Debug\VesaMoottori.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\tti13svesak\Desktop\fakemoottori\3d-grafiikkaa\VesaMoottori\Debug\VesaMoottori.lib" /MACHINE:X86 Debug\Buffers.obj
+         Debug\GraphicsDevice.obj
+         Debug\lodepng.obj
+         Debug\Main.obj
+         Debug\Sprite.obj
+         Debug\Texture.obj
+         Debug\Window.obj
+         Debug\ResourceManager.obj
+         Debug\ShaderProgram.obj
+         VesaMoottori.vcxproj -> C:\Users\tti13svesak\Desktop\fakemoottori\3d-grafiikkaa\VesaMoottori\Debug\VesaMoottori.exe
+     1>Done Building Project "C:\Users\tti13svesak\Desktop\fakemoottori\3d-grafiikkaa\VesaMoottori\VesaMoottori\VesaMoottori.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.86
