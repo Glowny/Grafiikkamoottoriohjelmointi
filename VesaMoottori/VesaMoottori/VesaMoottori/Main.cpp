@@ -168,11 +168,12 @@ int main()
 	
 	/*glScissor(200, 200, 500, 500);
 	glEnable(GL_SCISSOR_TEST);*/
+	GLint viewIndex = glGetUniformLocation(shaders.getProgramObject(), "unifView");		// shadereissa jotai h‰m‰r‰‰, onnistuuko lataus?
+
+	assert(viewIndex != -1);
+
 	GLint alphaIndex = glGetUniformLocation(shaders.getProgramObject(), "unifAlpha");
 	assert(alphaIndex != -1);
-
-	GLint viewIndex = glGetUniformLocation(shaders.getProgramObject(), "unifView");
-	assert(viewIndex != -1);
 
 	GLint projectionIndex = glGetUniformLocation(shaders.getProgramObject(), "unifProjektio");
 	assert(projectionIndex != -1);
@@ -369,7 +370,7 @@ void readObject(std::string filename)
 		indexData = new GLuint[indexSize];
 		std::vector<GLfloat> vertexDataa;
 
-		for (unsigned int i = 0; i < vertexPosition.size(); i++)
+		for (unsigned i = 0; i < vertexPosition.size(); i++)
 		{
 			vertexDataa.push_back(vertexPosition[i].x);
 			vertexDataa.push_back(vertexPosition[i].y);
@@ -381,15 +382,15 @@ void readObject(std::string filename)
 			vertexDataa.push_back(texturePosition[textureIndex[i]].y);
 
 		}
-		for (int i = 0; i < vertexSize; i++)
+		for (unsigned i = 0; i < vertexSize; i++)
 		{
-			std::cout << vertexData[i] << std::endl;
+			std::cout << vertexDataa[i] << std::endl;
 		}
 
-		for (unsigned int i = 0; i < index.size(); i++)
+		for (unsigned i = 0; i < index.size(); i++)
 		{
 			indexData[i] = i;
 		}
 	}
-	
+	fclose(file);
 }
