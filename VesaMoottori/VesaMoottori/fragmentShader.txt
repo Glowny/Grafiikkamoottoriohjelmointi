@@ -1,5 +1,5 @@
 varying vec3 varyColor;
-varying vec3 varyPosition;
+varying vec2 varyPosition;
 uniform sampler2D image;
 uniform float unifAlpha;
 

@@ -1,6 +1,7 @@
 #include "ShaderProgram.h"
 #include <iostream>
 #include <fstream>
+#include <assert.h>
 
 ShaderProgram::ShaderProgram()
 {
@@ -34,9 +35,8 @@ bool ShaderProgram::CreateShader(std::string shaderName, GLenum type)
 
 	glGetShaderiv(newShader, GL_COMPILE_STATUS, &linkCheck); // Testataan onnistuiko kompilointi.
 	std::cout << shaderName << " compile: " << linkCheck << std::endl;
-	if (linkCheck == 0)
-		return false;
-
+	assert(linkCheck == GL_TRUE);
+		
 	glAttachShader(glObject, newShader); // Lisätään shaderit shader-ohjelmaan.
 	return true;
 };
@@ -47,10 +47,8 @@ bool ShaderProgram::LinkProgram()
 	glLinkProgram(glObject); // Linkkaaminen luo executablen shadereihin, jotka siihen on lisätty.
 	glGetProgramiv(glObject, GL_LINK_STATUS, &linkCheck); // Testatataan shadereiden linkkaaminen objektiin.
 	std::cout << glObject << " linker bool: " << linkCheck << std::endl;
-	if (linkCheck == 0)
-		return false;
-	else
-		return true;
+	assert(linkCheck == GL_TRUE);
+	return true;
 }
 
 char* ShaderProgram::ShaderReader(std::string fileName)
